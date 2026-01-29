@@ -23,7 +23,7 @@ async def gmute_user(_, message: Message):
     user_id = message.reply_to_message.from_user.id
     GMUTED_USERS.add(user_id)
 
-    await message.reply_text(f"✅ GMUTED!\nअब `{user_id}` के msg delete होंगे.")
+    await message.reply_text(f"✅ GMUTED!\nअब `{user_id}` now show time 💀")
 
 
 # ✅ /ungmute Only Owner
