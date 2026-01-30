@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import Message
-from SONALI import app
+from RiyaMusic import app
 from config import OWNER_ID
 
 GMUTED_USERS = set()
