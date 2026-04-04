@@ -5,11 +5,15 @@ asyncio
 stripe==10.7.0
 mysql-connector-python==9.0.0
 telebot==0.0.5
-youtube_dl==2021.12.17 
+
+# ❌ old hata diya (youtube_dl)
+# youtube_dl==2021.12.17 
+
 beautifulsoup4
 dnspython
 ffmpeg-python
 future==1.0.0
+
 git+https://github.com/AsmSafone/SafoneAPI
 gitpython
 gtts
@@ -34,17 +38,27 @@ pyshorteners
 pyttsx3
 pytz
 pytube
-py-tgcalls==0.9.7
+
+# 🔥 FIXED PART (IMPORTANT)
+py-tgcalls==0.8.0
+pyrogram==2.0.106
+tgcrypto==1.2.5
+
 pyyaml==6.0.1
 requests
-SafoneAPI
 search_engine_parser
 speedtest-cli
 SpeechRecognition
 spotipy
-tgcrypto==1.2.5
 unidecode
 youtube-search
 youtube-search-python
-git+https://github.com/KurimuzonAkuma/pyrogram
+
+# ❌ duplicate hata diya
+# SafoneAPI
+
+# ❌ custom pyrogram hata diya
+# git+https://github.com/KurimuzonAkuma/pyrogram
+
+# ✅ yt-dlp already best hai
 git+https://github.com/yt-dlp/yt-dlp
