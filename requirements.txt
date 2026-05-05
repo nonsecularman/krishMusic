@@ -1,13 +1,10 @@
 aiofiles
 aiohttp
 apscheduler
-asyncio
+
 stripe==10.7.0
 mysql-connector-python==9.0.0
 telebot==0.0.5
-
-# ❌ old hata diya (youtube_dl)
-# youtube_dl==2021.12.17 
 
 beautifulsoup4
 dnspython
@@ -39,8 +36,8 @@ pyttsx3
 pytz
 pytube
 
-# 🔥 FIXED PART (IMPORTANT)
-py-tgcalls==2.2.12
+# ✅ STABLE VERSION FIX (IMPORTANT)
+py-tgcalls==2.2.0
 pyrogram==2.0.106
 tgcrypto==1.2.5
 
@@ -54,11 +51,4 @@ unidecode
 youtube-search
 youtube-search-python
 
-# ❌ duplicate hata diya
-# SafoneAPI
-
-# ❌ custom pyrogram hata diya
-# git+https://github.com/KurimuzonAkuma/pyrogram
-
-# ✅ yt-dlp already best hai
 git+https://github.com/yt-dlp/yt-dlp
