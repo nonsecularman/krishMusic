@@ -50,5 +50,7 @@ spotipy
 unidecode
 youtube-search
 youtube-search-python
+pytube
+py-yt
 
 git+https://github.com/yt-dlp/yt-dlp
